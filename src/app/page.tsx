@@ -124,7 +124,7 @@ export default function LandingPage() {
                 <div className="project-desc">A geospatial platform for location intelligence and analysis.</div>
               </div>
               <div className="project-item">
-                <span className="project-title">Placify – Internship Management Platform</span>
+                <a href="https://placify-iota.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-title">Placify – Internship Management Platform</a>
                 <div className="project-tech">T3 Stack (Next.js, TypeScript, Tailwind CSS, Drizzle ORM, PostgreSQL)</div>
                 <div className="project-desc">A platform to manage internships, built for scalability and ease of use.</div>
               </div>
