@@ -1,26 +1,148 @@
-@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+@font-face {
+  font-family: 'brightside02';
+  src: url('/fonts/brightside02.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-primary: 'Climate Crisis', Inter, sans-serif;
+  --font-secondary: 'brightside02', 'Inter', sans-serif;
+  --color-orange: #FF5722;
+  --color-offwhite: #F9F9F9;
+  --color-black: #0B0B0B;
+  --color-charcoal: #1A1A1A;
+  --color-yellow: #FFC107;
+  --color-gray: #BDBDBD;
+  --card-radius: 16px;
+  --card-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  --transition: 0.2s cubic-bezier(0.4,0,0.2,1);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-secondary);
+  background: var(--color-offwhite);
+  color: var(--color-black);
+  transition: background 0.5s, color 0.5s;
+}
+
+.dark-mode {
+  background: linear-gradient(120deg, var(--color-black), var(--color-charcoal));
+  color: var(--color-offwhite);
+}
+
+/* Typography */
+h1, .hero-title {
+  font-family: var(--font-primary);
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--color-orange);
+  line-height: 1.1;
+}
+h2 {
+  font-family: var(--font-primary);
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--color-orange);
+  line-height: 1.1;
+}
+h3 {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--color-orange);
+}
+p, .body-text {
+  font-family: var(--font-secondary);
+  font-size: 1.125rem;
+  color: var(--color-offwhite);
+  line-height: 1.5;
+}
+small {
+  font-size: 0.875rem;
+}
+
+/* Layout & Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Cards */
+.card {
+  background: var(--color-charcoal);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+  padding: 2rem;
+  color: var(--color-offwhite);
+  transition: box-shadow var(--transition), border var(--transition);
+  border: 2px solid transparent;
+}
+.card:hover {
+  box-shadow: 0 8px 32px rgba(255,87,34,0.2);
+  border: 2px solid var(--color-orange);
+}
+
+/* Buttons */
+.resume-btn {
+  display: inline-block;
+  background: var(--color-orange);
+  color: var(--color-black);
+  font-family: var(--font-primary);
+  font-size: 1.25rem;
+  font-weight: 900;
+  border: none;
+  border-radius: 50% 40% 60% 50% / 60% 50% 40% 50%; /* Irregular circle */
+  padding: 2rem 2.5rem;
+  box-shadow: 0 4px 16px rgba(255, 87, 34, 0.3);
+  cursor: pointer;
+  transition: background var(--transition), box-shadow var(--transition);
+  text-align: center;
+  text-decoration: none;
+}
+.resume-btn:hover {
+  background: #ff784e;
+  box-shadow: 0 0 24px var(--color-orange);
+}
+
+/* Links */
+a {
+  color: var(--color-orange);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color var(--transition);
+}
+a:hover {
+  text-decoration: underline;
+  text-shadow: 0 0 8px var(--color-orange);
+}
+
+/* Section Spacing */
+.section {
+  margin-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--color-gray);
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  h1, .hero-title { font-size: 2.5rem; }
+  .container { padding: 0 1rem; }
+  .card { padding: 1rem; }
 }
