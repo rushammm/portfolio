@@ -91,7 +91,7 @@ export default function LandingPage() {
           <h1 className="hero-title">Hi, I&apos;m Rusham</h1>
           <p className="hero-subtitle">Developer & Researcher</p>
           <a
-            href="/resume.pdf"
+            href="/rushamelahiResume.pdf"
             className="resume-btn"
             target="_blank"
             rel="noopener noreferrer"
