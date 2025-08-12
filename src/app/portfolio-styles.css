@@ -581,12 +581,21 @@ p {
     font-size: 0.95rem;
   }
   .resume-btn {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    padding: 0.75rem 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50% 60% 48% 52% / 55% 50% 60% 45%;
+    padding: 0;
     font-size: 1rem !important;
-    margin-bottom: 1rem;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: center;
+    text-decoration: none;
+    background: var(--color-orange-bright);
+    color: #222 !important;
+    font-weight: 900;
   }
   .nav {
     flex-direction: column;
@@ -600,9 +609,38 @@ p {
   }
   /* Remove fixed header for mobile to avoid overlay issues */
   .header {
-    position: static;
-    box-shadow: none;
-    background: none;
+    position: relative;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    background: var(--color-offwhite);
+    border-radius: 0 0 16px 16px;
+    padding: 0.5rem 0.5rem;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Hire me button (same style as resume) */
+  a.resume-btn[href="#contact"] {
+    width: 90px;
+    height: 90px;
+    border-radius: 50% 60% 48% 52% / 55% 50% 60% 45%;
+    padding: 0;
+    font-size: 1rem !important;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: center;
+    text-decoration: none;
+    background: var(--color-orange-bright);
+    color: #222 !important;
+    font-weight: 900;
+    line-height: 1.1;
+    white-space: pre-line;
   }
 }
 .light-mode .hero-title,
