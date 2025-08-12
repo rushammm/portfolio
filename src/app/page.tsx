@@ -199,14 +199,14 @@ Leveraged data-driven insights to inform and promote initiatives for achieving u
                 </svg>
                 elahirusham@gmail.com
               </a>
-              <a href="https://github.com/rushamelahi" className="contact-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/rushammm" className="contact-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" style={{verticalAlign: 'middle', marginRight: '0.5rem'}} xmlns="http://www.w3.org/2000/svg">
                   <rect width="28" height="28" rx="6" fill="var(--color-orange)"/>
                   <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.6-3.37-1.34-3.37-1.34-.45-1.15-1.1-1.46-1.1-1.46-.9-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 7.07c.85.004 1.71.12 2.51.35 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85 0 1.34-.01 2.42-.01 2.75 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10z" fill="#fff"/>
                 </svg>
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/rushamelahi" className="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/rusham-elahi-38511a229/" className="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <svg width="28" height="28" viewBox="0 0 32 32" fill="none" style={{verticalAlign: 'middle', marginRight: '0.5rem'}} xmlns="http://www.w3.org/2000/svg">
                   <rect width="28" height="28" rx="6" fill="var(--color-orange)"/>
                   <path d="M12.36 13.33h2.67v1.36c.37-.7 1.32-1.36 2.44-1.36 2.61 0 3.09 1.72 3.09 3.96v4.04h-2.67v-3.59c0-.86-.02-1.97-1.2-1.97-1.2 0-1.38.94-1.38 1.91v3.65h-2.67v-7.00zm-4.36 0h2.67v7h-2.67v-7zm1.33-3.5c.86 0 1.56.7 1.56 1.56 0 .86-.7 1.56-1.56 1.56-.86 0-1.56-.7-1.56-1.56 0-.86.7-1.56 1.56-1.56z" fill="#fff"/>
