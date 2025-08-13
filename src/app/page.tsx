@@ -24,6 +24,7 @@ export default function LandingPage() {
   // Static position for resume button (right side of heading, moved a bit down)
   const resumePos = { top: '70%', left: '80%' };
   const [headerOpacity, setHeaderOpacity] = useState(1);
+  const [isMobile, setIsMobile] = useState(false);
 
   React.useEffect(() => {
     const handleScroll = () => {
@@ -38,7 +39,14 @@ export default function LandingPage() {
       setHeaderOpacity(opacity);
     };
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    // Detect mobile view on mount and on resize
+    const checkMobile = () => setIsMobile(window.innerWidth <= 600);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', checkMobile);
+    };
   }, []);
 
   return (
@@ -95,7 +103,7 @@ export default function LandingPage() {
             className="resume-btn"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ position: 'absolute', ...resumePos, transform: 'translate(-50%, -50%)', zIndex: 2 }}
+            style={{ position: 'absolute', ...resumePos, transform: 'translate(-50%, -50%)', zIndex: 2, top: isMobile ? '75%' : '70%', left: '80%' }}
           >
             Resume
           </a>
