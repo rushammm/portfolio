@@ -121,8 +121,10 @@ a {
   transition: color var(--transition);
 }
 a:hover {
-  text-decoration: underline;
-  text-shadow: 0 0 8px var(--color-orange);
+text-decoration: underline;
+text-shadow: none !important;
+box-shadow: none !important;
+filter: none !important;
 }
 
 /* Section Spacing */

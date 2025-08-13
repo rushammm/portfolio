@@ -25,9 +25,12 @@
   transition: background 0.2s, color 0.2s, border 0.2s;
 }
 .contact-link:hover {
-  background: var(--color-orange-bright);
-  color: #fff;
-  border-color: var(--color-orange-bright);
+background: var(--color-orange-bright);
+color: #fff;
+border-color: var(--color-orange-bright);
+box-shadow: none !important;
+text-shadow: none !important;
+filter: none !important;
 }
 .dark-mode .contact-link {
   color: var(--color-offwhite) !important;
@@ -166,8 +169,14 @@
   text-shadow: none !important;
 }
 .project-title:hover {
-  color: var(--color-orange);
-  text-decoration: underline;
+color: var(--color-orange);
+text-decoration: underline;
+box-shadow: none !important;
+text-shadow: none !important;
+filter: none !important;
+background: none !important;
+outline: none !important;
+border: none !important;
 }
 .dark-mode .project-title {
   color: var(--color-offwhite) !important;
