@@ -121,7 +121,7 @@ filter: none !important;
   margin-bottom: 0.5rem;
 }
 .experience-desc {
-  font-family: 'brightside02', 'Inter', sans-serif;
+  font-family: 'Google Sans Code', 'Inter', sans-serif;
   font-size: 1.1rem;
   color: var(--color-offwhite);
   margin-left: 1.5rem;
@@ -188,7 +188,7 @@ border: none !important;
   margin-bottom: 0.5rem;
 }
 .project-desc {
-  font-family: 'brightside02', 'Inter', sans-serif;
+  font-family: 'Google Sans Code', 'Inter', sans-serif;
   font-size: 1.1rem;
   color: var(--color-offwhite);
 }
@@ -239,7 +239,7 @@ border: none !important;
   margin-bottom: 0.5rem;
 }
 .publication-desc {
-  font-family: 'brightside02', 'Inter', sans-serif;
+  font-family: 'Google Sans Code', 'Inter', sans-serif;
   font-size: 1.1rem;
   color: var(--color-offwhite);
 }
@@ -257,15 +257,15 @@ border: none !important;
   color: var(--color-offwhite) !important;
 }
 @font-face {
-  font-family: 'brightside02';
-  src: url('/fonts/BRIGHTSIGHT02 Regular.otf') format('opentype');
+  font-family: 'Google Sans Code';
+  src: url('/fonts/GoogleSansCode-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 :root {
   --font-primary: 'Climate Crisis', Inter, sans-serif;
-  --font-secondary: 'brightside02', 'Inter', sans-serif;
+  --font-secondary: 'Google Sans Code', 'Inter', sans-serif;
   --color-orange: #D86030; /* Muted orange */
   --color-orange-bright: #F06030; /* Brighter orange */
   --color-offwhite: #C0C0C0; /* Light mode background */
@@ -443,7 +443,7 @@ h2 {
   text-shadow: none;
 }
 p {
-  font-family: 'brightside02', 'Inter', sans-serif;
+  font-family: 'Google Sans Code', 'Inter', sans-serif;
   font-size: 1.75rem;
   color: var(--color-offwhite);
   line-height: 1.7;

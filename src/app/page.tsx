@@ -12,11 +12,11 @@ import './portfolio-styles.css';
 // Add font imports directly in the <head> for Next.js
 
 const sections = [
-  { id: 'about', label: 'A b o u t' },
-  { id: 'projects', label: 'P r o j e c t s' },
-  { id: 'experience', label: 'E x p e r i e n c e' },
-  { id: 'education', label: 'E d u c a t i o n' },
-  { id: 'contact', label: 'C o n t a c t' },
+  { id: 'about', label: 'About' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'experience', label: 'Experience' },
+  { id: 'education', label: 'Education' },
+  { id: 'contact', label: 'Contact' },
 ];
 
 export default function LandingPage() {
