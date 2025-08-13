@@ -219,7 +219,7 @@ Leveraged data-driven insights to inform and promote initiatives for achieving u
 
         {/* Footer */}
         <footer className="footer">
-          <span>© {new Date().getFullYear()} Hire me .</span>
+          <span>© {new Date().getFullYear()} developed & designed by yours truly .</span>
         </footer>
 
         {/* ...existing code... */}
