@@ -113,7 +113,7 @@ export default function LandingPage() {
         <main className="main-content">
           <section id="about" className="section card">
             <h2>About</h2>
-            <p className="about-text" style={{ fontSize: '1rem' }}>I’m a creative soul who loves bringing ideas to life, turning concepts into visuals and visions into real experiences. Whether it’s designing, coding, or sprinkling in some storytelling, I’m all about making things that not only look great but feel right. Currently looking for exciting opportunities to put my skills to work and create something amazing.</p>
+            <p className="about-text" style={{ fontSize: '1rem' }}>Creative soul turning ideas into visuals and visions into experiences—through design, code, and storytelling. Seeking exciting opportunities to create something amazing.</p>
           </section>
           <section id="projects" className="section card">
             <h2>Projects</h2>
